@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20 px;
+    background-color: #182124; /* Light blue background */
+    color: #212121; /* Dark gray text */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+   <!--- background-image: url(Age-of-AI.webp);--->
+}
+
+
+
+
+
+
+header {
+    background-color:mediumaquamarine; /* Darker blue header */
+    background-image: url(Age-of-AI.webp);
+    color: mediumaquamarine;
+    padding: 15px;
+    text-align: center; /* Center header text */
+    
+
+
+}
+
+
+
+
+
+
+nav {
+    text-align: center; /* Center navigation links */
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px; /* Add spacing between links */
+    color: white;
+    text-decoration: none;
+    background-color: mediumaquamarine; /* Blue link background */
+    padding: 8px ; /* Add padding to links */
+    border-radius: 5px; /* Rounded corners for links */
+
+
+}
+
+
+
+
+
+main {
+    flex: 1; /* Allow main content to take up available space */
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.container {
+    background-color: #ffffff; /* White container */
+    margin: 20px ;
+    padding: 20px;
+    width: 40%;
+    
+    border: 5px groove #bbdefb; /* Groove border */
+    border-radius: 6px; /* Rounded corners for container */
+}
+
+
+
+
+button {
+    background-color: mediumseagreen; /* Blue button */
+    color: grey;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for button */
+  
+    button { /* Styles for ALL buttons */
+        background-color: #4CAF50; /* Normal color */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover { /* Hover effect for ALL buttons */
+        background-color: #3e8e41; /* Darker color */
+    }
+}
+
+
+footer {
+    background-color:cyan ; /* Darker blue footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-image:url(Age-of-AI.webp) ;
+
+}
+
+
+
+
+
+/* Style for larger headings */
+h1, h2 {
+    color: cadetblue;/* Darker blue headings */
+    background-color: aquamarine;
+    border:groove ;
+    background-image: url(Age-of-AI.webp);
+
+}
+
+.get-started { /* This selector MUST match the class in your HTML */
+    background-color: aqua; /* Normal color (green) */
+    color: white;
+    padding: 10px 20px;
+    border: groove;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.get-started:hover {
+    background-color: maroon; /* Darker green on hover */
+}

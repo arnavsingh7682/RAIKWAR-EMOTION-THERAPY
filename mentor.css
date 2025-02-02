@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: mediumseagreen; /* Light blue background */
+    color: aquamarine; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: mediumaquamarine; /* Darker blue header */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-image: url(Age-of-AI.webp);
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    background-color: aquamarine; /* Blue link background */
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff; /* White container */
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px grey;
+    border: 5px groove #bbdefb; /* Groove border */
+    border-radius: 8px;
+}
+
+/* Style the form elements */
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="password"] {
+    width: calc(100% - 22px); /* Full width with padding/border subtraction */
+    padding: 80px;
+    margin: 10px 0;
+    border: 1px solid groove;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+button {
+    background-color: mediumaquamarine; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: 1 px solid groove;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+footer {
+    background-color: gray; /* Darker blue footer */
+    color:aqua;
+    text-align: center;
+    padding: 30px;
+    border: #bbdefb;
+    background-image: url(Age-of-AI.webp);
+    border: aquamarine groove ;
+}
+
+h1, h2 {
+    color:mediumspringgreen; /* Darker blue headings */
+    background-image: url(Age-of-AI.webp);
+    border: #bbdefb groove;
+
+
+
+
+}
